@@ -1,0 +1,20 @@
+@media only screen and (min-width: 992px) {
+
+    .my-info {
+        min-height: 900px;
+    }
+
+    .my-info-2 {
+        min-height: 500px;
+    }
+
+    .pd-right::before {
+        content: '';
+        display: block;
+        position: absolute;
+        height: 70%;
+        left: 0;
+        border-right: 1px solid #EAE2CE;
+    }
+
+}
